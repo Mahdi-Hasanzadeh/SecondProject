@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  background: linear-gradient(135deg, #131f53, #06ccab);
+}
+
+h1 {
+  text-shadow: 1px 1px 10px #0066ff;
+}
+h1:hover {
+  text-shadow: 2px 2px 15px #0066ff;
+  cursor: pointer;
+}
+p {
+  color: #ffee00;
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+.logo {
+  max-width: 200px;
+}
+.page-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  min-width: 270px;
+}
+.menu-container {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  min-width: 240px;
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  min-width: 250px;
+}
+.item2 ul {
+  display: flex;
+  margin-top: 2em;
+}
+.item2 ul li {
+  margin-right: 29px;
+}
+
+.main-container {
+  width: 90%;
+  margin: 15px auto;
+  display: flex;
+  max-width: 1200px;
+  min-width: 270px;
+  padding: 5px;
+}
+.main {
+  display: flex;
+  column-gap: 20px;
+  flex-direction: column;
+}
+.leftSide {
+  max-width: 800px;
+  min-width: 250px;
+}
+.rightSide {
+  max-width: 100px;
+  min-width: 250px;
+}
+@media screen and (min-width: 596px) {
+  .main {
+    flex-direction: row;
+  }
+  .menu {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
